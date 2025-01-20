@@ -1,0 +1,33 @@
+body, html {
+    overflow-x: hidden;
+  }
+  
+  #cards {
+    margin-top: 25vh;
+  }
+  
+  #check-btn {
+    height: 40px;
+    width: 100%;
+  }
+  
+  #images {
+    max-width: 100%;
+    height: 200px; /* Fixed height for the image */
+    object-fit: contain; /* Ensure the image fits within the fixed height */
+  }
+  
+  .container {
+    margin-top: -12%;
+    margin-left: 28%;
+  }
+  
+  .vraag-container {
+    margin-left: 2%;
+    max-height: 50%;
+  }
+  
+  #inp_ant {
+    max-width: 18%;
+  }
+  

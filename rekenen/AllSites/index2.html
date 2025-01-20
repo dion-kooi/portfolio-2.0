@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/header-footer-css/header.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   <title>reken-app_dion</title>
+</head>
+<body>
+
+
+
+<!--header/paragraph-->
+
+<header>
+  <h1>Dion Kooi Tafels Oefenen</h1>
+  <nav>
+    <center style="gap: 20%;">
+      <ul>
+          <li><a href="https://dionkooi.nl/" target="_blank">portfolio</a></li>
+          <li><a href="../index.html">RekenHub</a></li>
+          <li><a href="index1.html">Tafels</a></li>
+          <li><a href="index2.html">random Tafels</a></li>
+          <li><a href="index3.html">eenheden</a></li>
+          <li><a href="index4.html">som som magie</a></li>      
+          <li><a href="index5.html">sudoku</a></li>
+          <li><a href="/AllSites/06_procenten/index.php">procenten</a></li>
+      </ul>
+    </center>
+  </nav>  
+</header>
+
+
+
+
+          <!--navbar/dropdowns-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/dion.kooi" target="_blank">instagram</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="" target="_blank">Action</a></li>
+              <li><a class="dropdown-item" href="#" target="_blank">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<div class="row">
+    <div class="col-4">
+    </div>
+    <div class="col-4">
+
+
+
+
+
+<!-- card -->
+      <div class="card text-center" style="margin-top: 40%;">
+        <div id="tafelheader" class="card-header">
+          Tafel van ...
+        </div>
+        <div class="card-body">
+<div class="input-group mb-3">
+  <input type="text" id="inputSom" class="form-control" placeholder="som" aria-label="som" disabled>
+  <span class="input-group-text">=</span>
+  <input type="text" id="inputAntwoord" class="form-control" placeholder="antwoord" aria-label="antwoord">
+</div>
+
+<div class="d-grid gap-2">
+    <button class="btn btn-primary" type="button" onclick="checkAntwoord()">check antwoord</button>
+  
+        <!-- mijn twee inputvelden -->
+<form class="row g-3 mb-3">
+  <div class="col-md-5">
+    <label for="inputTafelvan" class="form-label">Tafel van</label>
+    <input type="number" class="form-control" id="inputTafelvan">
+  </div>
+  <div class="col-md-5">
+    <label for="inputTafeltot" class="form-label">Tafel tot</label>
+    <input type="number" class="form-control" id="inputTafeltot" value="10">
+  </div>
+  <div class="col-md-2 mt-5">
+    <button type="button" class="btn btn-primary" onclick="showTafel()">GO</button>
+  </div>
+</form>
+</div>  
+ <p id="tafel" class="card-text">
+          </p>
+        </div>
+        <div class="card-footer text-body-secondary">
+          made by OSD 2023
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+</div>
+
+
+
+
+
+<!--scripts-->
+<script src="script2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

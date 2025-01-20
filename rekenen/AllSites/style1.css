@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+  }
+  
+
+  /* Existing Styles */
+  .alinea1 {
+    margin-left: 730px;
+    color: blue; /* Overriding color to blue as in the second .alinea1 definition */
+  }
+  
+  .header1 {
+    margin-left: 660px;
+  }
+  
+  .pagination {
+    justify-content: center;
+  }
+  
+  .alinea2 {
+    color: red;
+  }
